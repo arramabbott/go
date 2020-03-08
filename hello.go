@@ -5,5 +5,10 @@ import (
 )
 
 func main() {
-	fmt.Printf("Hello Go\n")
+	var message string
+	var number int
+	number = 1000202020
+	message = "Hello"
+	fmt.Printf(message + " Go\n")
+	fmt.Printf("%d"+"\n", number)
 }
